@@ -1,0 +1,45 @@
+.container {
+	background-color: rgba(0, 0, 0, 0.8);
+	height: 100vh;
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+	margin-top: -5rem;
+}
+
+.error-container {
+	background-color: white;
+	padding: 1rem;
+	margin: 1rem auto;
+	margin-top: 18%;
+	max-width: 650px;
+	height: 200px;
+	border-radius: 0.6rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.error__header {
+	background-color: darkslateblue;
+	color: white;
+	margin: -1rem -1rem 1rem -1rem;
+	padding: 1rem;
+	border-top-left-radius: 0.6rem;
+	border-top-right-radius: 0.6rem;
+}
+
+.error__header h3 {
+	margin: 0;
+}
+
+.error__message {
+	flex-grow: 1;
+}
+
+.error-container button {
+	align-self: flex-end;
+}
+
+.hidden {
+	display: none;
+}

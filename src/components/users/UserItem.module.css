@@ -1,0 +1,12 @@
+.item-container {
+	background-color: white;
+	padding: 1rem;
+	margin: 1rem auto;
+	max-width: 650px;
+	border-radius: 0.6rem;
+}
+
+.item {
+	border: 1px solid lightgray;
+	padding: 0.5rem;
+}

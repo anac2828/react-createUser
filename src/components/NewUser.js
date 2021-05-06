@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import InputError from './InputError';
-import UserForm from './UserForm';
+import UserForm from './users/UserForm';
 
 const NewUser = (props) => {
 	// const [isValid, setIsValid] = useState(true);

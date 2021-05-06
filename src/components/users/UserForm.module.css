@@ -1,0 +1,36 @@
+.form-container {
+	padding: 1rem;
+	margin: 2rem auto;
+	width: 90%;
+	max-width: 40rem;
+}
+
+/* form {
+	width: 100%;
+} */
+
+/* .form-group {
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+} */
+
+.form-group label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+.form-group input {
+	font: inherit;
+	display: block;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 0.15rem;
+	margin-bottom: 0.5rem;
+}
+
+.form-group input:focus {
+	outline: none;
+	border-color: #4f005f;
+}

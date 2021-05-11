@@ -1,20 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 import UserList from './components/users/UserList';
-import NewUser from './components/NewUser';
+import UserForm from './components/users/UserForm';
 
-const usersData = [];
+// const usersData = [];
 
 function App() {
-	const [users, setUsers] = useState(usersData);
+	const [users, setUsers] = useState([]);
+
 	const addUserHandler = (newUser) => {
 		setUsers((prevUsers) => [newUser, ...prevUsers]);
 	};
 
 	return (
-		<div>
-			<NewUser onAddUser={addUserHandler} />
+		// Use Fragment to reduce the number of divs being render
+		<Fragment>
+			<UserForm onAddUser={addUserHandler} />
 			<UserList users={users} />
-		</div>
+		</Fragment>
 	);
 }
 

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import InputError from './InputError';
+import InputError from './UI/ErrorModal';
 import UserForm from './users/UserForm';
 
 const NewUser = (props) => {

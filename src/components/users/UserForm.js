@@ -3,6 +3,8 @@ import styles from './UserForm.module.css';
 import Card from '../UI/Card';
 import Button from '../UI/Button';
 import ErrorModal from '../UI/ErrorModal';
+//use a Wrapper to reduce the number of divs being render
+import Wrapper from '../Helpers/Wrapper';
 
 const UserForm = (props) => {
 	//useRef creates a connection between an element and JS code. It returns a the node it is connected to. When using refs to get a value you don't need useState. If you only need to read a value use refs. In these example useState would also had been ok to use.
